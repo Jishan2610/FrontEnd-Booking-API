@@ -1,0 +1,21 @@
+
+.allUsers {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 10px;
+    display: grid;
+    height: 90vh;
+    width: 90vw;
+    grid-template-columns: 33vw 33vw 33vw;
+    grid-template-rows: 33vh 33vh 33vh;
+    grid-gap: 10px;
+}
+
+/* .grid > * {
+    border: 2px solid rgb(137,153,175);
+} */
+
+.item {
+    grid-column: 2;
+    grid-row: 2;
+}

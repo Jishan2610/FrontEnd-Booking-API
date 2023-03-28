@@ -1,0 +1,11 @@
+.BookingContainer{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: max-content;
+    width: max-content;
+}
+.solo-booking{
+    height: max-content;
+    width: max-content;
+}
